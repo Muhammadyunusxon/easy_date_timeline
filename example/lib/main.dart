@@ -1,3 +1,4 @@
+import 'package:example/examples/exmpl.dart';
 import 'package:flutter/material.dart';
 import 'package:easy_date_timeline/easy_date_timeline.dart';
 
@@ -51,8 +52,9 @@ class MyHomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           mainAxisSize: MainAxisSize.min,
           children: [
-            SimpleUseExample(),
-            ThemingExample(),
+          //  SimpleUseExample(),
+           // ThemingExample(),
+            Exmpl()
           ],
         ),
       ),

@@ -34,7 +34,7 @@ class _NewWidgetExampleState extends State<ThemingExample> {
             child: EasyDateTimeLinePicker(
               firstDate: DateTime.now(),
               lastDate: DateTime(2030, 3, 18),
-              focusedDate: _selectedDate,
+              focusedDate: _selectedDate, 
               onDateChange: (selectedDate) {
                 setState(() {
                   _selectedDate = selectedDate;
