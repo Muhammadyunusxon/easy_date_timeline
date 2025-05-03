@@ -42,6 +42,7 @@ class EasyMonthDropDown extends StatelessWidget {
         elevation: EasyConstants.monthDropDownElevation,
         value: value,
         style: style,
+        dropdownColor: dropDownColor,
         items: EasyDateUtils.getYearMonths(DateTime.now(), locale)
             .map(
               (month) => DropdownMenuItem<EasyMonth>(
