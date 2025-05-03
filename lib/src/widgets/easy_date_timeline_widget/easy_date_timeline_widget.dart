@@ -181,6 +181,7 @@ class _EasyDateTimeLineState extends State<EasyDateTimeLine> {
         locale: widget.locale,
         onMonthChange: _onMonthChange,
         style: _headerProps.monthStyle,
+        dropDownColor: _headerProps.dropDownColor,
       ),
     );
   }

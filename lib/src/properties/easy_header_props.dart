@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart' show TextStyle, EdgeInsets;
+import 'package:flutter/material.dart' show Color, Colors, EdgeInsets, TextStyle;
 
 import 'date_formatter.dart';
 
@@ -18,6 +18,7 @@ final class EasyHeaderProps {
     this.monthStyle,
     this.padding,
     this.dateFormatter,
+    this.dropDownColor=Colors.white,
   });
 
   /// Whether to show the header of the date timeline widget.
@@ -48,6 +49,7 @@ final class EasyHeaderProps {
   final EdgeInsets? padding;
 
   final DateFormatter? dateFormatter;
+  final Color dropDownColor;
 }
 
 enum SelectedDateFormat {
